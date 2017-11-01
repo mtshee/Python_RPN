@@ -21,7 +21,7 @@ def calculate(string):
 	#print(stack)
 	return stack.pop()
 
-def calc_mod(num1, num2)
+def calc_mod(num1, num2):
 	return num1/num2
 	
 	
