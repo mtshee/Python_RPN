@@ -10,6 +10,6 @@ install:
 script:
     # or py.test for Python versions 3.5 and below
   - py.test coveralls/tests.py --doctest-modules --pep8 coveralls -v --cov coveralls --cov-report term-missing
-  - coverage run --source=home rpn.py test home
+  - coverage run --source=tdd setup.py test 
 after_success:
   - coveralls
