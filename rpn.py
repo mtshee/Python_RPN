@@ -5,7 +5,7 @@ ops = {
 	'+': operator.add,
 	'-': operator.sub,
 	'*': operator.mul
-	#'/': operator.truediv
+	'/': operator.truediv
 }
 def calculate(string):
 	stack = []
@@ -20,11 +20,15 @@ def calculate(string):
 			stack.append(result)
 	#print(stack)
 	return stack.pop()
+
+def calc_mod(num1, num2)
+	return num1/num2
 	
 	
 def main():
 	while True:
 		calculate(input("RPN calc> "))
+		calc_mod(64653,135314)
 
 if __name__ == '__main__':
 	main()
