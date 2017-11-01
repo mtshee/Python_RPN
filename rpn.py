@@ -1,5 +1,7 @@
 #!/user/bin/env python3
 import operator
+from clint.textui import colored, puts
+
 
 ops = {
 	'+': operator.add,
@@ -18,6 +20,11 @@ def calculate(string):
 			function = ops[token]
 			result = function(arg1, arg2)
 			stack.append(result)
+			arg1_str = puts(colored.blue(str(arg1)))
+			arg2_str = puts(colored.blue(str(arg2)))
+			op_str = puts(colored.red(token))
+			eq_string = puts(colored.magenta("="))
+			result_str = puts(colored.green(str(result)))
 	#print(stack)
 	return stack.pop()
 
