@@ -1,0 +1,4 @@
+coveralls
+operator
+unittest
+rpn
