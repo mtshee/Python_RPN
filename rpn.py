@@ -4,7 +4,7 @@ import operator
 ops = {
 	'+': operator.add,
 	'-': operator.sub,
-	'*': operator.mul
+	'*': operator.mul,
 	'/': operator.truediv
 }
 def calculate(string):
