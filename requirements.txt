@@ -2,3 +2,5 @@ coveralls
 operator
 unittest
 rpn
+numpy
+pandas
