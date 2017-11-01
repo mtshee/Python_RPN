@@ -1,4 +1,1 @@
 coveralls
-unittest
-numpy
-pandas
